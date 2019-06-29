@@ -133,3 +133,5 @@ LOGIN_REDIRECT_URL = '/mainapp/'
 #only for local
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+# The absolute path to the directory where collectstatic will collect static files for deployment.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
