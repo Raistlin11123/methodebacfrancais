@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'uc(7q3_dt9$uzhsom3a1+cvgb^&p!loty$2qy*^dqc07g409^x'
+SECRET_KEY = 'uc(7q3_dt9$uzhsom3a1+cvgb^&p!loty$2qy*^dqc07g4025259^x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -130,9 +130,6 @@ STATICFILES_DIRS = [
 ]
 
 LOGIN_REDIRECT_URL = '/mainapp/'
-
-#only for local
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
